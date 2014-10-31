@@ -1,7 +1,7 @@
 /**
-   @Author:
-      Date:
-   Teacher: Boyko
+   @Author: 3005068 Audrey Chang
+      Date: October 31, 2014
+   Student: Audrey Chang
   */
 import kareltherobot.*;
 import java.awt.Color;
