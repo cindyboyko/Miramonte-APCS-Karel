@@ -6,6 +6,7 @@
 import kareltherobot.*;
 import java.awt.Color;
 
+// test comment
 public class ClosingWindowDriver implements Directions
 {
     public static void main(String args[])  {
