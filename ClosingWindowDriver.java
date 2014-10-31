@@ -1,7 +1,6 @@
 /**
-   @Author:
+   @Author: Eric Liu
       Date:
-   Teacher: Boyko
   */
 import kareltherobot.*;
 import java.awt.Color;
