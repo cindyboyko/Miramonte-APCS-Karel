@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=st\ av\ dir\ numBeepers
+comment0.target=DangerousTask(int,\ int,\ Direction,\ int)
+comment1.params=
+comment1.target=void\ run()
+comment2.params=
+comment2.target=void\ east()
+comment3.params=
+comment3.target=void\ west()
+comment4.params=
+comment4.target=void\ turnRight()
+comment5.params=
+comment5.target=void\ finish()
+numComments=6
