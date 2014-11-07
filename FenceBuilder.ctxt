@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=st\ av\ dir\ numBeepers
+comment0.target=FenceBuilder(int,\ int,\ Direction,\ int)
+comment1.params=
+comment1.target=void\ run()
+comment2.params=
+comment2.target=void\ turnRight()
+comment3.params=length
+comment3.target=void\ buildFence(int)
+comment4.params=
+comment4.target=int\ measureSide()
+numComments=5
