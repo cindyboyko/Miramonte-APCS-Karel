@@ -10,9 +10,6 @@ public class BeeperPathDriver implements Directions
 {
     public static void main(String args[])  {
         //DO NOT MODIFY THIS CODE
-        Robot beeperBot = new Robot(2,2, East, -1);
-    
-        
         
         PathRunner karel = new PathRunner(2, 1, East, 0);  
         //Your code goes below here
