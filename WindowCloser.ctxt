@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=st\ av\ dir\ numBeepers
+comment0.target=WindowCloser(int,\ int,\ Direction,\ int)
+comment1.params=
+comment1.target=void\ run()
+comment2.params=
+comment2.target=void\ turnRight()
+comment3.params=turns
+comment3.target=boolean\ windowsNeedClosing(int)
+comment4.params=
+comment4.target=void\ closeWindow()
+numComments=5
