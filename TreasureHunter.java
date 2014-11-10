@@ -1,26 +1,33 @@
 import kareltherobot.*;
 
-public class TreasureHunter
+public class TreasureHunter extends Robot
 {
     // instance variables - replace the example below with your own
     final int NORTH = 1, EAST = 2, SOUTH = 3, WEST = 4;
-
+    private boolean foundTreasure = false;
     
-    public TreasureHunter()
+    public TreasureHunter(int st, int av, Direction dir, int numBeepers)
     {
-        // initialise instance variables
-        x = 0;
+        super (st, av, dir, numBeepers);
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public void run(){
+        while(foundTreasure == false){
+            while(nextToABeeper() == false) move();
+            changeDirection();
+        }
+    }
+    
+    private void changeDirection(){
+        int direction = 0;
+        while(nextToABeeper() == true){
+            pickBeeper();
+            direction++;
+        }
+        if(direction == NORTH) while(facingNorth() == false) turnLeft();
+        else if(direction == EAST) while(facingEast() == false) turnLeft();
+        else if(direction == SOUTH) while(facingSouth() == false) turnLeft();
+        else if(direction == WEST) while(facingWest() == false) turnLeft();
+        else foundTreasure = true;
     }
 }
