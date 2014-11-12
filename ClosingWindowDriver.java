@@ -9,7 +9,8 @@ import java.awt.Color;
 public class ClosingWindowDriver implements Directions
 {
     public static void main(String args[])  {
-        Robot karel = new Robot(7, 5, East, 9);  
+        ClosingWindow karel = new ClosingWindow(7, 5, East, 9);  
+        karel.run();
         karel.turnOff();  
     } 
 

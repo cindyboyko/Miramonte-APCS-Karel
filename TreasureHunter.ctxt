@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=st\ av\ dir\ numBeepers
+comment0.target=TreasureHunter(int,\ int,\ Direction,\ int)
+comment1.params=
+comment1.target=void\ run()
+comment2.params=
+comment2.target=void\ north()
+comment3.params=
+comment3.target=void\ south()
+comment4.params=
+comment4.target=void\ east()
+comment5.params=
+comment5.target=void\ west()
+comment6.params=
+comment6.target=void\ turnRight()
+numComments=7

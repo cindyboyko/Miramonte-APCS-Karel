@@ -9,7 +9,8 @@ import java.awt.Color;
 public class DefendDemocracyDriver implements Directions
 {
     public static void main(String args[])  {
-        Robot karel = new Robot(3, 1, East, 0);  
+        DefendDemocracy karel = new DefendDemocracy(3, 1, East, 0);  
+        karel.run();
         karel.turnOff();  
     } 
 
