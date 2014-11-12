@@ -13,7 +13,8 @@ public class BuildingFenceDriver implements Directions
     static int fenceHeight = (int)(Math.random()*10)+1;
     static int numBeepers = 2*(fenceLength + fenceHeight) + 4;
     public static void main(String args[])  {
-        Robot karel = new Robot(1, 1, East, 0);  
+        BuildingFence karel = new BuildingFence(1, 1, East, 0);  
+        karel.run();
         karel.turnOff();  
     } 
 
@@ -28,7 +29,7 @@ public class BuildingFenceDriver implements Directions
         World.setBeeperColor(Color.black);
         World.setStreetColor(Color.gray);
         World.setNeutroniumColor(Color.black);
-        World.setDelay(10);  
+        World.setDelay(8);  
         World.setVisible(true);
     }
 }
