@@ -10,13 +10,11 @@ public class BeeperPathDriver implements Directions
 {
     public static void main(String args[])  {
         //DO NOT MODIFY THIS CODE
-        Robot beeperBot = new Robot(2,2, East, -1);
-    
         
-        
-        Robot karel = new Robot(2, 1, East, 0);  
+        PathRunner karel = new PathRunner(2, 1, East, 0);  
         //Your code goes below here
-        
+        karel.move();
+        karel.run();
         
         karel.turnOff();  
     } 
@@ -26,7 +24,7 @@ public class BeeperPathDriver implements Directions
     static {
         World.reset(); 
         World.setSize(31, 20);
-        //World.readWorld("worlds/fig6-25.kwld"); 
+        World.readWorld("worlds/fig6-25.kwld"); 
         World.setBeeperColor(Color.black);
         World.setStreetColor(Color.gray);
         World.setNeutroniumColor(Color.black);

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=st\ av\ dir\ numBeepers
+comment0.target=PathRunner(int,\ int,\ Direction,\ int)
+comment1.params=
+comment1.target=void\ run()
+comment2.params=direction
+comment2.target=void\ go(int)
+comment3.params=
+comment3.target=int\ whichWay()
+comment4.params=direction
+comment4.target=boolean\ isWay(int)
+comment5.params=
+comment5.target=void\ turnRight()
+comment6.params=
+comment6.target=void\ turnAround()
+numComments=7
