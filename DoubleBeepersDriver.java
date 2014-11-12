@@ -9,7 +9,8 @@ import java.awt.Color;
 public class DoubleBeepersDriver implements Directions
 {
     public static void main(String args[])  {
-        Robot karel = new Robot(1, 1, East, -1);  
+        DoubleBeeper karel = new DoubleBeeper(1, 1, East, -1);  
+        karel.run();
         karel.turnOff();  
     } 
 

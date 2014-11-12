@@ -17,7 +17,8 @@ public class SortingTaskDriver implements Directions
         
         
         //Your code goes here:
-        Robot karel = new Robot(8, 2, West, 0);  
+        Sorter karel = new Sorter(8, 2, West, 0);
+        karel.run();
         karel.turnOff();  
     } 
     

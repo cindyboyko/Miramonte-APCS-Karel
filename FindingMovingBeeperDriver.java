@@ -9,7 +9,8 @@ import java.awt.Color;
 public class FindingMovingBeeperDriver implements Directions
 {
     public static void main(String args[])  {
-        Robot karel = new Robot(2, 8, East, 0);  
+        MovingBeeperFinder karel = new MovingBeeperFinder(2, 8, East, 0);  
+        karel.run();
         karel.turnOff();  
     } 
 
